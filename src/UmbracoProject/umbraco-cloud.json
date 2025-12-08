@@ -1,16 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Name": "izabels reserved koala",
-      "Alias": "izabels-reserved-koala",
+      "Name": "Izabel\u0027s CloudDeveloper",
+      "Alias": "izabel-s-clouddeveloper",
       "Id": "41086d3f-9bbf-46c4-be6d-6244c7af1804",
+      "Url": "https://www.s1.umbraco.io/project/izabel-s-clouddeveloper",
       "TrialExpireDate": "2025-12-22T21:13:57.0000000",
       "Workspaces": [
         {
           "Id": "3de196da-f919-41c2-a208-ca2e19827014",
           "Name": "Live",
           "Type": "live",
-          "Url": "https://izabels-reserved-koala.euwest01.umbraco.io"
+          "Url": "https://izabel-s-clouddeveloper.euwest01.umbraco.io"
         }
       ]
     },

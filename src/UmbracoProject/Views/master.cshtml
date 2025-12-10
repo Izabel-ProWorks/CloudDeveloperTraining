@@ -4,8 +4,8 @@
 @{
     Layout = null;
     IPublishedContent root = Model.Root();
-    string companyName = root.Value<string>("Powered by CICD");
-    if (companyName == "") { companyName = "placeholder"; };
+    string companyName = root.Value<string>("companyName");
+    if (companyName == "") { companyName = "Powered by CICD"; };
     var colorGradient1 = root.Value("colorSettingsGradientStart");
     var colorGradient2 = root.Value("colorSettingsGradientEnd");
     var colorAccent1 = root.Value("colorSettingsAccent1");
